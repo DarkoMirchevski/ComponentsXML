@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<bns:Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bns="http://api.platform.boomi.com/" folderFullPath="Training-Darko-Mirchevski/SnapLogic Tasks/Task1" componentId="0d7fac53-a328-43fb-91dd-c420bee747db" version="1" name="Birthdays Mapping" type="transform.map" createdDate="2024-03-04T09:16:55Z" createdBy="mirchevski.darko@uklo.edu.mk" modifiedDate="2024-03-04T09:16:55Z" modifiedBy="mirchevski.darko@uklo.edu.mk" deleted="false" currentVersion="true" folderName="Task1" folderId="Rjo2NTQ2NDQz" branchName="main" branchId="Qjo0MDgyMDA">
+  <bns:encryptedValues/>
+  <bns:description/>
+  <bns:object>
+    <Map xmlns="" fromProfile="b0085061-c9b1-48a5-930b-a457482ea460" toProfile="b68f51d4-750d-40ef-a99b-d0f000f83e85">
+      <Mappings>
+        <Mapping fromKey="19" fromKeyPath="*[@key='1']/*[@key='2']/*[@key='19']" fromNamePath="Record/Elements/SURNAME" fromType="profile" toKey="3" toKeyPath="*[@key='1']/*[@key='2']/*[@key='3']" toNamePath="Record/Elements/last name" toType="profile"/>
+        <Mapping fromKey="13" fromKeyPath="*[@key='1']/*[@key='2']/*[@key='13']" fromNamePath="Record/Elements/GIVENNAME" fromType="profile" toKey="4" toKeyPath="*[@key='1']/*[@key='2']/*[@key='4']" toNamePath="Record/Elements/first name" toType="profile"/>
+        <Mapping fromKey="4" fromKeyPath="*[@key='1']/*[@key='2']/*[@key='4']" fromNamePath="Record/Elements/BIRTHDAY" fromType="profile" toKey="5" toKeyPath="*[@key='1']/*[@key='2']/*[@key='5']" toNamePath="Record/Elements/birthday" toType="profile"/>
+      </Mappings>
+      <Functions optimizeExecutionOrder="true"/>
+      <Defaults/>
+      <DocumentCacheJoins/>
+    </Map>
+  </bns:object>
+</bns:Component>

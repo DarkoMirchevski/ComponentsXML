@@ -1,0 +1,122 @@
+<?xml version="1.0" ?>
+<bns:Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bns="http://api.platform.boomi.com/" folderFullPath="Training-Darko-Mirchevski/SnapLogic Tasks/Task1" componentId="b0085061-c9b1-48a5-930b-a457482ea460" version="2" name="Birthdays Input Profile Mapping" type="profile.flatfile" createdDate="2024-03-04T09:10:14Z" createdBy="mirchevski.darko@uklo.edu.mk" modifiedDate="2024-03-04T09:13:15Z" modifiedBy="mirchevski.darko@uklo.edu.mk" deleted="false" currentVersion="true" folderName="Task1" folderId="Rjo2NTQ2NDQz" branchName="main" branchId="Qjo0MDgyMDA">
+  <bns:encryptedValues/>
+  <bns:description/>
+  <bns:object>
+    <FlatFileProfile xmlns="" modelVersion="2" strict="true">
+      <ProfileProperties>
+        <GeneralInfo fileType="delimited" useColumnHeaders="true"/>
+        <Options>
+          <DataOptions/>
+          <DelimitedOptions fileDelimiter="commadelimited" removeEscape="false" textQualifier="textqualifierdouble"/>
+        </Options>
+      </ProfileProperties>
+      <DataElements>
+        <FlatFileRecord detectFormat="numberofcolumns" isNode="true" key="1" name="Record">
+          <FlatFileElements isNode="true" key="2" name="Elements">
+            <FlatFileElement dataType="character" enforceUnique="false" identityValue="" isMappable="true" isNode="true" justification="left" key="3" mandatory="false" maxLength="0" minLength="0" name="ID" useToIdentifyFormat="false" validateData="false">
+              <DataFormat>
+                <ProfileCharacterFormat/>
+              </DataFormat>
+            </FlatFileElement>
+            <FlatFileElement dataType="character" enforceUnique="false" isMappable="true" isNode="true" key="4" mandatory="false" maxLength="0" minLength="0" name="BIRTHDAY" useToIdentifyFormat="false" validateData="false">
+              <DataFormat>
+                <ProfileCharacterFormat/>
+              </DataFormat>
+            </FlatFileElement>
+            <FlatFileElement dataType="character" enforceUnique="false" isMappable="true" isNode="true" key="5" mandatory="false" maxLength="0" minLength="0" name="CCEXPIRES" useToIdentifyFormat="false" validateData="false">
+              <DataFormat>
+                <ProfileCharacterFormat/>
+              </DataFormat>
+            </FlatFileElement>
+            <FlatFileElement dataType="character" enforceUnique="false" isMappable="true" isNode="true" key="6" mandatory="false" maxLength="0" minLength="0" name="CCNUMBER" useToIdentifyFormat="false" validateData="false">
+              <DataFormat>
+                <ProfileCharacterFormat/>
+              </DataFormat>
+            </FlatFileElement>
+            <FlatFileElement dataType="character" enforceUnique="false" isMappable="true" isNode="true" key="7" mandatory="false" maxLength="0" minLength="0" name="CCTYPE" useToIdentifyFormat="false" validateData="false">
+              <DataFormat>
+                <ProfileCharacterFormat/>
+              </DataFormat>
+            </FlatFileElement>
+            <FlatFileElement dataType="character" enforceUnique="false" isMappable="true" isNode="true" key="8" mandatory="false" maxLength="0" minLength="0" name="CVV2" useToIdentifyFormat="false" validateData="false">
+              <DataFormat>
+                <ProfileCharacterFormat/>
+              </DataFormat>
+            </FlatFileElement>
+            <FlatFileElement dataType="character" enforceUnique="false" isMappable="true" isNode="true" key="9" mandatory="false" maxLength="0" minLength="0" name="CITY" useToIdentifyFormat="false" validateData="false">
+              <DataFormat>
+                <ProfileCharacterFormat/>
+              </DataFormat>
+            </FlatFileElement>
+            <FlatFileElement dataType="character" enforceUnique="false" isMappable="true" isNode="true" key="10" mandatory="false" maxLength="0" minLength="0" name="COUNTRY" useToIdentifyFormat="false" validateData="false">
+              <DataFormat>
+                <ProfileCharacterFormat/>
+              </DataFormat>
+            </FlatFileElement>
+            <FlatFileElement dataType="character" enforceUnique="false" isMappable="true" isNode="true" key="11" mandatory="false" maxLength="0" minLength="0" name="EMAILADDRESS" useToIdentifyFormat="false" validateData="false">
+              <DataFormat>
+                <ProfileCharacterFormat/>
+              </DataFormat>
+            </FlatFileElement>
+            <FlatFileElement dataType="character" enforceUnique="false" isMappable="true" isNode="true" key="12" mandatory="false" maxLength="0" minLength="0" name="GENDER" useToIdentifyFormat="false" validateData="false">
+              <DataFormat>
+                <ProfileCharacterFormat/>
+              </DataFormat>
+            </FlatFileElement>
+            <FlatFileElement dataType="character" enforceUnique="false" isMappable="true" isNode="true" key="13" mandatory="false" maxLength="0" minLength="0" name="GIVENNAME" useToIdentifyFormat="false" validateData="false">
+              <DataFormat>
+                <ProfileCharacterFormat/>
+              </DataFormat>
+            </FlatFileElement>
+            <FlatFileElement dataType="character" enforceUnique="false" isMappable="true" isNode="true" key="14" mandatory="false" maxLength="0" minLength="0" name="MIDDLEINITIAL" useToIdentifyFormat="false" validateData="false">
+              <DataFormat>
+                <ProfileCharacterFormat/>
+              </DataFormat>
+            </FlatFileElement>
+            <FlatFileElement dataType="character" enforceUnique="false" isMappable="true" isNode="true" key="15" mandatory="false" maxLength="0" minLength="0" name="MOTHERSMAIDEN" useToIdentifyFormat="false" validateData="false">
+              <DataFormat>
+                <ProfileCharacterFormat/>
+              </DataFormat>
+            </FlatFileElement>
+            <FlatFileElement dataType="character" enforceUnique="false" isMappable="true" isNode="true" key="16" mandatory="false" maxLength="0" minLength="0" name="SSN" useToIdentifyFormat="false" validateData="false">
+              <DataFormat>
+                <ProfileCharacterFormat/>
+              </DataFormat>
+            </FlatFileElement>
+            <FlatFileElement dataType="character" enforceUnique="false" isMappable="true" isNode="true" key="17" mandatory="false" maxLength="0" minLength="0" name="STATECODE" useToIdentifyFormat="false" validateData="false">
+              <DataFormat>
+                <ProfileCharacterFormat/>
+              </DataFormat>
+            </FlatFileElement>
+            <FlatFileElement dataType="character" enforceUnique="false" isMappable="true" isNode="true" key="18" mandatory="false" maxLength="0" minLength="0" name="STREETADDRESS" useToIdentifyFormat="false" validateData="false">
+              <DataFormat>
+                <ProfileCharacterFormat/>
+              </DataFormat>
+            </FlatFileElement>
+            <FlatFileElement dataType="character" enforceUnique="false" isMappable="true" isNode="true" key="19" mandatory="false" maxLength="0" minLength="0" name="SURNAME" useToIdentifyFormat="false" validateData="false">
+              <DataFormat>
+                <ProfileCharacterFormat/>
+              </DataFormat>
+            </FlatFileElement>
+            <FlatFileElement dataType="character" enforceUnique="false" isMappable="true" isNode="true" key="20" mandatory="false" maxLength="0" minLength="0" name="TELEPHONENUMBER" useToIdentifyFormat="false" validateData="false">
+              <DataFormat>
+                <ProfileCharacterFormat/>
+              </DataFormat>
+            </FlatFileElement>
+            <FlatFileElement dataType="character" enforceUnique="false" isMappable="true" isNode="true" key="21" mandatory="false" maxLength="0" minLength="0" name="UPS" useToIdentifyFormat="false" validateData="false">
+              <DataFormat>
+                <ProfileCharacterFormat/>
+              </DataFormat>
+            </FlatFileElement>
+            <FlatFileElement dataType="character" enforceUnique="false" isMappable="true" isNode="true" key="22" mandatory="false" maxLength="0" minLength="0" name="ZIPCODE" useToIdentifyFormat="false" validateData="false">
+              <DataFormat>
+                <ProfileCharacterFormat/>
+              </DataFormat>
+            </FlatFileElement>
+          </FlatFileElements>
+        </FlatFileRecord>
+      </DataElements>
+    </FlatFileProfile>
+  </bns:object>
+</bns:Component>

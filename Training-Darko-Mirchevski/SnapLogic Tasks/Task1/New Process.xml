@@ -1,0 +1,157 @@
+<?xml version="1.0" ?>
+<bns:Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bns="http://api.platform.boomi.com/" folderFullPath="Training-Darko-Mirchevski/SnapLogic Tasks/Task1" componentId="b3bbedee-0e32-4466-85ce-b3dfb687b892" version="35" name="New Process" type="process" createdDate="2024-03-04T09:15:43Z" createdBy="mirchevski.darko@uklo.edu.mk" modifiedDate="2024-03-04T12:42:42Z" modifiedBy="mirchevski.darko@uklo.edu.mk" deleted="false" currentVersion="true" folderName="Task1" folderId="Rjo2NTQ2NDQz" branchName="main" branchId="Qjo0MDgyMDA">
+  <bns:encryptedValues/>
+  <bns:description/>
+  <bns:object>
+    <process xmlns="" allowSimultaneous="false" enableUserLog="false" processLogOnErrorOnly="false" purgeDataImmediately="false" updateRunDates="true" workload="general">
+      <shapes>
+        <shape image="start" name="shape1" shapetype="start" userlabel="" x="48.0" y="46.0">
+          <configuration>
+            <noaction/>
+          </configuration>
+          <dragpoints>
+            <dragpoint name="shape1.dragpoint1" toShape="shape2" x="224.0" y="56.0"/>
+          </dragpoints>
+        </shape>
+        <shape image="message_icon" name="shape2" shapetype="message" userlabel="" x="240.0" y="48.0">
+          <configuration>
+            <message combined="false">
+              <msgTxt>&quot;ID&quot;,&quot;BIRTHDAY&quot;,&quot;CCEXPIRES&quot;,&quot;CCNUMBER&quot;,&quot;CCTYPE&quot;,&quot;CVV2&quot;,&quot;CITY&quot;,&quot;COUNTRY&quot;,&quot;EMAILADDRESS&quot;,&quot;GENDER&quot;,&quot;GIVENNAME&quot;,&quot;MIDDLEINITIAL&quot;,&quot;MOTHERSMAIDEN&quot;,&quot;SSN&quot;,&quot;STATECODE&quot;,&quot;STREETADDRESS&quot;,&quot;SURNAME&quot;,&quot;TELEPHONENUMBER&quot;,&quot;UPS&quot;,&quot;ZIPCODE&quot;
+&quot;1&quot;,&quot;1963-11-03&quot;,&quot;3/2013&quot;,&quot;5227081949027029&quot;,&quot;MasterCard&quot;,&quot;330&quot;,&quot;SHONGALOO&quot;,&quot;US&quot;,&quot;Rosie.S.Stevens@trashymail.com&quot;,&quot;female&quot;,&quot;Rosie&quot;,&quot;S&quot;,&quot;Dove&quot;,&quot;434-47-5409&quot;,&quot;LA&quot;,&quot;2447 Tecumsah Lane&quot;,&quot;Stevens&quot;,&quot;318-846-7519&quot;,&quot;1Z 709 876 55 8135 680 6&quot;,&quot;71072&quot;
+&quot;2&quot;,&quot;1954-02-04&quot;,&quot;11/2013&quot;,&quot;4716806516757835&quot;,&quot;Visa&quot;,&quot;293&quot;,&quot;San Diego&quot;,&quot;US&quot;,&quot;Joni.J.Huber@pookmail.com&quot;,&quot;female&quot;,&quot;Joni&quot;,&quot;J&quot;,&quot;Mcafee&quot;,&quot;614-40-1053&quot;,&quot;CA&quot;,&quot;1107 Holden Street&quot;,&quot;Huber&quot;,&quot;619-287-8921&quot;,&quot;1Z 105 239 72 2609 927 3&quot;,&quot;92115&quot;
+&quot;3&quot;,&quot;1973-04-22&quot;,&quot;8/2011&quot;,&quot;5381678851559758&quot;,&quot;MasterCard&quot;,&quot;875&quot;,&quot;El Segundo&quot;,&quot;US&quot;,&quot;Lissette.E.Williams@mailinator.com&quot;,&quot;female&quot;,&quot;Lissette&quot;,&quot;E&quot;,&quot;Dewitt&quot;,&quot;546-71-4973&quot;,&quot;CA&quot;,&quot;1526 Sumner Street&quot;,&quot;Williams&quot;,&quot;310-662-7052&quot;,&quot;1Z 597 35A 06 7519 813 4&quot;,&quot;90245&quot;
+&quot;4&quot;,&quot;1971-04-28&quot;,&quot;2/2010&quot;,&quot;5336564583658827&quot;,&quot;MasterCard&quot;,&quot;773&quot;,&quot;Arlington Heights&quot;,&quot;US&quot;,&quot;Lawrence.K.Poplar@mailinator.com&quot;,&quot;male&quot;,&quot;Lawrence&quot;,&quot;K&quot;,&quot;Howard&quot;,&quot;350-02-1232&quot;,&quot;IL&quot;,&quot;610 Rose Street&quot;,&quot;Poplar&quot;,&quot;708-271-7091&quot;,&quot;1Z 505 64F 54 1689 284 4&quot;,&quot;60005&quot;
+&quot;5&quot;,&quot;1959-09-10&quot;,&quot;5/2012&quot;,&quot;4929539478645432&quot;,&quot;Visa&quot;,&quot;570&quot;,&quot;Los Angeles&quot;,&quot;US&quot;,&quot;Bernadette.S.Frierson@mailinator.com&quot;,&quot;female&quot;,&quot;Bernadette&quot;,&quot;S&quot;,&quot;Anderson&quot;,&quot;616-51-0344&quot;,&quot;CA&quot;,&quot;4318 Middleville Road&quot;,&quot;Frierson&quot;,&quot;626-380-4586&quot;,&quot;1Z 595 7E8 03 1868 519 2&quot;,&quot;90017&quot;
+&quot;6&quot;,&quot;1971-11-28&quot;,&quot;6/2009&quot;,&quot;4532059646183744&quot;,&quot;Visa&quot;,&quot;716&quot;,&quot;NEWARK&quot;,&quot;US&quot;,&quot;Tanya.P.Perez@trashymail.com&quot;,&quot;female&quot;,&quot;Tanya&quot;,&quot;P&quot;,&quot;Perry&quot;,&quot;140-72-2944&quot;,&quot;NJ&quot;,&quot;4542 Granville Lane&quot;,&quot;Perez&quot;,&quot;973-532-8084&quot;,&quot;1Z 956 661 59 3286 193 6&quot;,&quot;07102&quot;</msgTxt>
+              <msgParameters/>
+            </message>
+          </configuration>
+          <dragpoints>
+            <dragpoint name="shape2.dragpoint1" toShape="shape6" x="416.0" y="56.0"/>
+          </dragpoints>
+        </shape>
+        <shape image="map_icon" name="shape4" shapetype="map" userlabel="" x="816.0" y="48.0">
+          <configuration>
+            <map mapId="0d7fac53-a328-43fb-91dd-c420bee747db"/>
+          </configuration>
+          <dragpoints>
+            <dragpoint name="shape4.dragpoint1" toShape="shape13" x="992.0" y="56.0"/>
+          </dragpoints>
+        </shape>
+        <shape image="stop_icon" name="shape5" shapetype="stop" userlabel="" x="1392.0" y="48.0">
+          <configuration>
+            <stop continue="true"/>
+          </configuration>
+          <dragpoints/>
+        </shape>
+        <shape image="dataprocess_icon" name="shape6" shapetype="dataprocess" userlabel="" x="432.0" y="48.0">
+          <configuration>
+            <dataprocess>
+              <step index="1" key="1" name="Split Documents" processtype="8">
+                <documentsplit profileType="ff">
+                  <SplitOptions>
+                    <FFOptions headersOption="retain" linkElementKey="3" linkElementName="ID (Record/Elements/ID)" profileId="b0085061-c9b1-48a5-930b-a457482ea460" splitOption="split_profile"/>
+                  </SplitOptions>
+                </documentsplit>
+              </step>
+            </dataprocess>
+          </configuration>
+          <dragpoints>
+            <dragpoint name="shape6.dragpoint1" toShape="shape7" x="608.0" y="56.0"/>
+          </dragpoints>
+        </shape>
+        <shape image="decision_icon" name="shape7" shapetype="decision" userlabel="" x="624.0" y="48.0">
+          <configuration>
+            <decision comparison="equals" name="">
+              <decisionvalue valueType="profile">
+                <profileelement elementId="17" elementName="STATECODE (Record/Elements/STATECODE)" profileId="b0085061-c9b1-48a5-930b-a457482ea460" profileType="profile.flatfile"/>
+              </decisionvalue>
+              <decisionvalue valueType="static">
+                <staticparameter staticproperty="CA"/>
+              </decisionvalue>
+            </decision>
+          </configuration>
+          <dragpoints>
+            <dragpoint identifier="true" name="shape7.dragpoint1" text="True" toShape="shape4" x="800.0" y="56.0"/>
+            <dragpoint identifier="false" name="shape7.dragpoint2" text="False" toShape="shape8" x="800.0" y="216.0"/>
+          </dragpoints>
+        </shape>
+        <shape image="stop_icon" name="shape8" shapetype="stop" userlabel="" x="816.0" y="208.0">
+          <configuration>
+            <stop continue="true"/>
+          </configuration>
+          <dragpoints/>
+        </shape>
+        <shape image="documentproperties_icon" name="shape13" shapetype="documentproperties" userlabel="" x="1008.0" y="48.0">
+          <configuration>
+            <documentproperties>
+              <documentproperty defaultValue="" isDynamicCredential="false" isTradingPartner="false" name="Dynamic Document Property - lname" persist="false" propertyId="dynamicdocument.lname" shouldEncrypt="false">
+                <sourcevalues>
+                  <parametervalue key="1" valueType="profile">
+                    <profileelement elementId="3" elementName="last name (Record/Elements/last name)" profileId="b68f51d4-750d-40ef-a99b-d0f000f83e85" profileType="profile.flatfile"/>
+                  </parametervalue>
+                </sourcevalues>
+              </documentproperty>
+            </documentproperties>
+          </configuration>
+          <dragpoints>
+            <dragpoint name="shape13.dragpoint1" toShape="shape14" x="1184.0" y="56.0"/>
+          </dragpoints>
+        </shape>
+        <shape image="dataprocess_icon" name="shape14" shapetype="dataprocess" userlabel="" x="1200.0" y="48.0">
+          <configuration>
+            <dataprocess>
+              <step index="1" key="1" name="Custom Scripting" processtype="12">
+                <dataprocessscript language="groovy" useCache="true">
+                  <script>import java.util.ArrayList;
+import java.util.Collections; // Import Collections
+import java.util.SortedMap;
+import java.util.TreeMap;
+import java.util.Collection;
+import java.util.Iterator;
+
+// Name of Dynamic Document Property that contains the sorting values.
+sortByValuePropName = &quot;lname&quot;;
+
+// Init temp collections
+SortedMap sortedMap = new TreeMap(Collections.reverseOrder()); // Use reverseOrder() to sort in descending order
+
+
+
+// Loop through documents and store the sort-by-values and document indices in the sortedMap.
+
+for ( int i = 0; i &lt; dataContext.getDataCount(); i++ ) {
+  Properties props = dataContext.getProperties(i);
+  String sortByValue = props.getProperty(&quot;document.dynamic.userdefined.&quot; + sortByValuePropName) + &quot;_&quot; + i;
+  sortedMap.put(sortByValue, new Integer(i));
+}
+
+// Retrieve the sorted values in descending order.
+Collection sortedValues = sortedMap.values();
+
+// Loop through sorted results to output documents for the next process shape
+Iterator iterator = sortedValues.iterator();
+ 
+while (iterator.hasNext()) {
+  int i = ((Integer)iterator.next()).intValue();
+
+  dataContext.storeStream(dataContext.getStream(i), dataContext.getProperties(i));
+}</script>
+                </dataprocessscript>
+              </step>
+              <step index="2" key="2" name="Combine Documents" processtype="9">
+                <dataprocesscombine profileType="flatfile">
+                  <FFOptions freeFormFooter="" freeFormHeader="" headersOption="retain"/>
+                </dataprocesscombine>
+              </step>
+            </dataprocess>
+          </configuration>
+          <dragpoints>
+            <dragpoint name="shape14.dragpoint1" toShape="shape5" x="1376.0" y="56.0"/>
+          </dragpoints>
+        </shape>
+      </shapes>
+    </process>
+  </bns:object>
+  <bns:processOverrides/>
+</bns:Component>
