@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<bns:Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bns="http://api.platform.boomi.com/" folderFullPath="Training-Darko-Mirchevski/Doubleservice" componentId="37c02881-94c2-4217-b133-8a8d23e2b78a" version="8" name="Test2" type="process" createdDate="2024-10-29T11:57:58Z" createdBy="mirchevski.darko@uklo.edu.mk" modifiedDate="2024-12-03T14:50:18Z" modifiedBy="mirchevski.darko@uklo.edu.mk" deleted="false" currentVersion="true" folderName="Doubleservice" folderId="Rjo3MTU1ODE0" branchName="main" branchId="Qjo0MDgyMDA">
+<bns:Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bns="http://api.platform.boomi.com/" folderFullPath="Training-Darko-Mirchevski/Doubleservice" componentId="047c7843-d3ca-45a9-af31-e9e27ed1e186" version="18" name="Test1" type="process" createdDate="2024-10-29T11:56:58Z" createdBy="mirchevski.darko@uklo.edu.mk" modifiedDate="2024-11-14T11:56:04Z" modifiedBy="mirchevski.darko@uklo.edu.mk" deleted="false" currentVersion="true" folderName="Doubleservice" folderId="Rjo3MTU1ODE0" branchName="main" branchId="Qjo0MDgyMDA">
   <bns:encryptedValues/>
   <bns:description/>
   <bns:object>
@@ -7,13 +7,31 @@
       <shapes>
         <shape image="start" name="shape1" shapetype="start" userlabel="" x="48.0" y="46.0">
           <configuration>
-            <connectoraction actionType="Listen" allowDynamicCredentials="NONE" connectorType="wss" hideSettings="true" operationId="cc8a1164-53c5-4a90-a266-cea917c2e7f0">
+            <connectoraction actionType="Listen" allowDynamicCredentials="NONE" connectorType="wss" hideSettings="true" operationId="5cfc93cd-a468-41fc-9b48-706f6efa0890">
               <parameters/>
               <dynamicProperties/>
             </connectoraction>
           </configuration>
           <dragpoints>
-            <dragpoint name="shape1.dragpoint1" toShape="shape5" x="224.0" y="56.0"/>
+            <dragpoint name="shape1.dragpoint1" toShape="shape7" x="224.0" y="56.0"/>
+          </dragpoints>
+        </shape>
+        <shape image="message_icon" name="shape2" shapetype="message" userlabel="" x="432.0" y="48.0">
+          <configuration>
+            <message combined="false">
+              <msgTxt>'{
+&quot;type&quot;: &quot;company&quot;,
+&quot;name&quot;: &quot;Company 1&quot;,
+&quot;location&quot;: {
+&quot;state&quot;: &quot;NY&quot;,`
+&quot;country&quot;: &quot;USA&quot;
+}
+}'</msgTxt>
+              <msgParameters/>
+            </message>
+          </configuration>
+          <dragpoints>
+            <dragpoint name="shape2.dragpoint1" toShape="shape3" x="608.0" y="56.0"/>
           </dragpoints>
         </shape>
         <shape image="returndocuments_icon" name="shape3" shapetype="returndocuments" userlabel="" x="624.0" y="48.0">
@@ -22,23 +40,10 @@
           </configuration>
           <dragpoints/>
         </shape>
-        <shape image="processcall_icon" name="shape4" shapetype="processcall" userlabel="" x="432.0" y="48.0">
-          <configuration>
-            <processcall abort="true" processId="cc01e12f-1cd2-4036-ae2e-0a3a62ee7c5a" wait="true">
-              <parameters/>
-              <returnpaths>
-                <returnpaths childShapeName="shape3" returnLabel=""/>
-              </returnpaths>
-            </processcall>
-          </configuration>
-          <dragpoints>
-            <dragpoint identifier="shape3" name="shape4.dragpoint1" toShape="shape3" x="608.0" y="56.0"/>
-          </dragpoints>
-        </shape>
-        <shape image="notify_icon" name="shape5" shapetype="notify" userlabel="" x="240.0" y="48.0">
+        <shape image="notify_icon" name="shape7" shapetype="notify" userlabel="" x="240.0" y="48.0">
           <configuration>
             <notify disableEvent="false" enableUserLog="false" perExecution="false" title="">
-              <notifyMessage>-The value of the DPP testDynamicProcessProperty is: {1}</notifyMessage>
+              <notifyMessage>The value of the dynamic process property testDynamicProcessProperty is: {1}</notifyMessage>
               <notifyMessageLevel>ERROR</notifyMessageLevel>
               <notifyParameters>
                 <parametervalue key="0" valueType="process">
@@ -48,7 +53,7 @@
             </notify>
           </configuration>
           <dragpoints>
-            <dragpoint name="shape5.dragpoint1" toShape="shape4" x="416.0" y="56.0"/>
+            <dragpoint name="shape7.dragpoint1" toShape="shape2" x="416.0" y="56.0"/>
           </dragpoints>
         </shape>
       </shapes>
@@ -58,7 +63,7 @@
     <Overrides xmlns="">
       <Connections/>
       <Operations>
-        <OperationOverride id="cc8a1164-53c5-4a90-a266-cea917c2e7f0">
+        <OperationOverride id="5cfc93cd-a468-41fc-9b48-706f6efa0890">
           <field id="ObjectName" label="Object" overrideable="false" xpath="WebServicesServerListenAction/@objectName"/>
         </OperationOverride>
       </Operations>
