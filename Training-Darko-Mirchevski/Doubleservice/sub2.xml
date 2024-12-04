@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<bns:Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bns="http://api.platform.boomi.com/" folderFullPath="Training-Darko-Mirchevski/Doubleservice" componentId="cc01e12f-1cd2-4036-ae2e-0a3a62ee7c5a" version="7" name="sub2" type="process" createdDate="2024-10-29T11:59:00Z" createdBy="mirchevski.darko@uklo.edu.mk" modifiedDate="2024-11-27T11:51:11Z" modifiedBy="mirchevski.darko@uklo.edu.mk" deleted="false" currentVersion="true" folderName="Doubleservice" folderId="Rjo3MTU1ODE0" branchName="main" branchId="Qjo0MDgyMDA">
+<bns:Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bns="http://api.platform.boomi.com/" folderFullPath="Training-Darko-Mirchevski/Doubleservice" componentId="cc01e12f-1cd2-4036-ae2e-0a3a62ee7c5a" version="8" name="sub2" type="process" createdDate="2024-10-29T11:59:00Z" createdBy="mirchevski.darko@uklo.edu.mk" modifiedDate="2024-12-04T11:59:04Z" modifiedBy="mirchevski.darko@uklo.edu.mk" deleted="false" currentVersion="true" folderName="Doubleservice" folderId="Rjo3MTU1ODE0" branchName="main" branchId="Qjo0MDgyMDA">
   <bns:encryptedValues/>
-  <bns:description/>
+  <bns:description>test description</bns:description>
   <bns:object>
     <process xmlns="" allowSimultaneous="false" enableUserLog="false" processLogOnErrorOnly="false" purgeDataImmediately="false" updateRunDates="false" workload="general">
       <shapes>
