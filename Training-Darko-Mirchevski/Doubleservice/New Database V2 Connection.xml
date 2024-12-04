@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<bns:Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bns="http://api.platform.boomi.com/" folderFullPath="Training-Darko-Mirchevski/Doubleservice" componentId="a44f643d-c0dc-4a14-be6f-3cdacb698b94" version="1" name="New Database V2 Connection" type="connector-settings" subType="officialboomi-X3979C-dbv2da-prod" createdDate="2024-12-04T10:34:36Z" createdBy="mirchevski.darko@uklo.edu.mk" modifiedDate="2024-12-04T10:34:36Z" modifiedBy="mirchevski.darko@uklo.edu.mk" deleted="false" currentVersion="true" folderName="Doubleservice" folderId="Rjo3MTU1ODE0" branchName="main" branchId="Qjo0MDgyMDA">
+  <bns:encryptedValues>
+    <bns:encryptedValue path="//GenericConnectionConfig/field[@type='password']" isSet="true"/>
+  </bns:encryptedValues>
+  <bns:description/>
+  <bns:object>
+    <GenericConnectionConfig xmlns="">
+      <field id="url" type="string" value=""/>
+      <field id="className" type="string" value=""/>
+      <field id="username" type="string" value=""/>
+      <field id="password" type="password" value="6e9a0d90120af45d9160769d841652d6ff894cb83b544e9875999953e61703b49f4e3d05546c391064794b52cdefde8035bcf2caf70073281af96423611640a0"/>
+      <field id="schemaName" type="string" value=""/>
+      <field id="connectTimeOut" type="integer"/>
+      <field id="readTimeOut" type="integer"/>
+      <field id="enablePooling" type="boolean" value="false"/>
+      <field id="maximumConnections" type="integer" value=""/>
+      <field id="minimumConnections" type="integer" value=""/>
+      <field id="maximumIdleTime" type="integer" value=""/>
+      <field id="whenExhaustedAction" type="string" value=""/>
+      <field id="maximumWaitTime" type="integer" value=""/>
+      <field id="testOnBorrow" type="boolean" value=""/>
+      <field id="testOnReturn" type="boolean" value=""/>
+      <field id="testWhileIdle" type="boolean" value=""/>
+      <field id="validationQuery" type="string" value=""/>
+      <field id="CustomProperties" type="customproperties">
+        <customProperties/>
+      </field>
+    </GenericConnectionConfig>
+  </bns:object>
+</bns:Component>
