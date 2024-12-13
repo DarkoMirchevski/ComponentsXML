@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<bns:Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bns="http://api.platform.boomi.com/" folderFullPath="Training-Darko-Mirchevski/Test" componentId="776bc5fa-6b0f-4fae-a5da-e1331a65583c" version="7" name="[POSTMAN] test" type="connector-settings" subType="http" createdDate="2024-02-21T12:13:09Z" createdBy="mirchevski.darko@uklo.edu.mk" modifiedDate="2024-12-13T11:54:11Z" modifiedBy="mirchevski.darko@uklo.edu.mk" deleted="false" currentVersion="true" folderName="Test" folderId="Rjo2NTE3MzM5" branchName="main" branchId="Qjo0MDgyMDA">
+  <bns:encryptedValues/>
+  <bns:description/>
+  <bns:object>
+    <HttpSettings xmlns="" authenticationType="NONE" url="https://postman-echo.com">
+      <AuthSettings user=""/>
+      <OAuthSettings accessToken="" accessTokenURL="" authorizationURL="" consumerKey="" realm="" requestTokenURL="" signatureMethod="SHA256" suppressBlankAccessToken="false"/>
+      <OAuth2Settings grantType="code" refreshAuthScheme="req_body_params_auth">
+        <credentials clientId=""/>
+        <authorizationTokenEndpoint url="">
+          <sslOptions/>
+        </authorizationTokenEndpoint>
+        <authorizationParameters/>
+        <accessTokenEndpoint url="">
+          <sslOptions/>
+        </accessTokenEndpoint>
+        <accessTokenParameters/>
+        <scope/>
+      </OAuth2Settings>
+      <AwsSettings>
+        <credentials>
+          <accessKeyId/>
+          <awsService>s3</awsService>
+          <customService/>
+          <awsRegion>ap-northeast-1</awsRegion>
+          <customRegion/>
+        </credentials>
+      </AwsSettings>
+      <SSLOptions clientauth="false" trustServerCert="false"/>
+    </HttpSettings>
+  </bns:object>
+</bns:Component>
