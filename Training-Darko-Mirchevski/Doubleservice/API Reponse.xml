@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<bns:Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bns="http://api.platform.boomi.com/" folderFullPath="Training-Darko-Mirchevski/Doubleservice" componentId="ec89ba81-9c1e-4cbd-913f-eb2be3620aee" version="1" name="API Reponse" type="profile.json" createdDate="2024-12-13T13:41:33Z" createdBy="mirchevski.darko@uklo.edu.mk" modifiedDate="2024-12-13T13:41:33Z" modifiedBy="mirchevski.darko@uklo.edu.mk" deleted="false" currentVersion="true" folderName="Doubleservice" folderId="Rjo3MTU1ODE0" branchName="main" branchId="Qjo0MDgyMDA">
+  <bns:encryptedValues/>
+  <bns:description/>
+  <bns:object>
+    <JSONProfile xmlns="" strict="false">
+      <DataElements>
+        <JSONRootValue dataType="character" isMappable="true" isNode="true" key="1" name="Root">
+          <DataFormat>
+            <ProfileCharacterFormat/>
+          </DataFormat>
+          <JSONObject isMappable="false" isNode="true" key="2" name="Object">
+            <JSONObjectEntry dataType="character" isMappable="true" isNode="true" key="3" name="responseURL">
+              <DataFormat>
+                <ProfileCharacterFormat/>
+              </DataFormat>
+            </JSONObjectEntry>
+          </JSONObject>
+          <Qualifiers>
+            <QualifierList/>
+          </Qualifiers>
+        </JSONRootValue>
+      </DataElements>
+      <tagLists/>
+    </JSONProfile>
+  </bns:object>
+</bns:Component>

@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<bns:Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bns="http://api.platform.boomi.com/" folderFullPath="Training-Darko-Mirchevski/Doubleservice" componentId="c69e4ac9-5f2d-4120-bb37-fc70dfb304ae" version="1" name="Postman Response" type="profile.json" createdDate="2024-12-13T13:40:12Z" createdBy="mirchevski.darko@uklo.edu.mk" modifiedDate="2024-12-13T13:40:12Z" modifiedBy="mirchevski.darko@uklo.edu.mk" deleted="false" currentVersion="true" folderName="Doubleservice" folderId="Rjo3MTU1ODE0" branchName="main" branchId="Qjo0MDgyMDA">
+  <bns:encryptedValues/>
+  <bns:description/>
+  <bns:object>
+    <JSONProfile xmlns="" strict="false">
+      <DataElements>
+        <JSONRootValue dataType="character" isMappable="true" isNode="true" key="1" name="Root">
+          <DataFormat>
+            <ProfileCharacterFormat/>
+          </DataFormat>
+          <JSONObject isMappable="false" isNode="true" key="2" name="Object">
+            <JSONObjectEntry dataType="character" isMappable="true" isNode="true" key="3" name="args">
+              <DataFormat>
+                <ProfileCharacterFormat/>
+              </DataFormat>
+              <JSONObject isMappable="false" isNode="true" key="4" name="Object"/>
+            </JSONObjectEntry>
+            <JSONObjectEntry dataType="character" isMappable="true" isNode="true" key="5" name="headers">
+              <DataFormat>
+                <ProfileCharacterFormat/>
+              </DataFormat>
+              <JSONObject isMappable="false" isNode="true" key="6" name="Object">
+                <JSONObjectEntry dataType="character" isMappable="true" isNode="true" key="7" name="host">
+                  <DataFormat>
+                    <ProfileCharacterFormat/>
+                  </DataFormat>
+                </JSONObjectEntry>
+                <JSONObjectEntry dataType="character" isMappable="true" isNode="true" key="8" name="x-request-start">
+                  <DataFormat>
+                    <ProfileCharacterFormat/>
+                  </DataFormat>
+                </JSONObjectEntry>
+                <JSONObjectEntry dataType="character" isMappable="true" isNode="true" key="9" name="connection">
+                  <DataFormat>
+                    <ProfileCharacterFormat/>
+                  </DataFormat>
+                </JSONObjectEntry>
+                <JSONObjectEntry dataType="character" isMappable="true" isNode="true" key="10" name="x-forwarded-proto">
+                  <DataFormat>
+                    <ProfileCharacterFormat/>
+                  </DataFormat>
+                </JSONObjectEntry>
+                <JSONObjectEntry dataType="character" isMappable="true" isNode="true" key="11" name="x-forwarded-port">
+                  <DataFormat>
+                    <ProfileCharacterFormat/>
+                  </DataFormat>
+                </JSONObjectEntry>
+                <JSONObjectEntry dataType="character" isMappable="true" isNode="true" key="12" name="x-amzn-trace-id">
+                  <DataFormat>
+                    <ProfileCharacterFormat/>
+                  </DataFormat>
+                </JSONObjectEntry>
+                <JSONObjectEntry dataType="character" isMappable="true" isNode="true" key="13" name="user-agent">
+                  <DataFormat>
+                    <ProfileCharacterFormat/>
+                  </DataFormat>
+                </JSONObjectEntry>
+                <JSONObjectEntry dataType="character" isMappable="true" isNode="true" key="14" name="cache-control">
+                  <DataFormat>
+                    <ProfileCharacterFormat/>
+                  </DataFormat>
+                </JSONObjectEntry>
+                <JSONObjectEntry dataType="character" isMappable="true" isNode="true" key="15" name="pragma">
+                  <DataFormat>
+                    <ProfileCharacterFormat/>
+                  </DataFormat>
+                </JSONObjectEntry>
+                <JSONObjectEntry dataType="character" isMappable="true" isNode="true" key="16" name="accept">
+                  <DataFormat>
+                    <ProfileCharacterFormat/>
+                  </DataFormat>
+                </JSONObjectEntry>
+              </JSONObject>
+            </JSONObjectEntry>
+            <JSONObjectEntry dataType="character" isMappable="true" isNode="true" key="17" name="url">
+              <DataFormat>
+                <ProfileCharacterFormat/>
+              </DataFormat>
+            </JSONObjectEntry>
+          </JSONObject>
+          <Qualifiers>
+            <QualifierList/>
+          </Qualifiers>
+        </JSONRootValue>
+      </DataElements>
+      <tagLists/>
+    </JSONProfile>
+  </bns:object>
+</bns:Component>
