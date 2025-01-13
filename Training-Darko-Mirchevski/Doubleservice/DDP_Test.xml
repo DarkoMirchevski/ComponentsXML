@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<bns:Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bns="http://api.platform.boomi.com/" folderFullPath="Training-Darko-Mirchevski/Doubleservice" componentId="b3cf8ae8-0580-413d-aec6-2da783b72019" version="9" name="DDP_Test" type="process" createdDate="2025-01-13T13:06:56Z" createdBy="mirchevski.darko@uklo.edu.mk" modifiedDate="2025-01-13T14:11:47Z" modifiedBy="mirchevski.darko@uklo.edu.mk" deleted="false" currentVersion="true" folderName="Doubleservice" folderId="Rjo3MTU1ODE0" branchName="main" branchId="Qjo0MDgyMDA">
+<bns:Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bns="http://api.platform.boomi.com/" folderFullPath="Training-Darko-Mirchevski/Doubleservice" componentId="b3cf8ae8-0580-413d-aec6-2da783b72019" version="11" name="DDP_Test" type="process" createdDate="2025-01-13T13:06:56Z" createdBy="mirchevski.darko@uklo.edu.mk" modifiedDate="2025-01-13T14:25:01Z" modifiedBy="mirchevski.darko@uklo.edu.mk" deleted="false" currentVersion="true" folderName="Doubleservice" folderId="Rjo3MTU1ODE0" branchName="main" branchId="Qjo0MDgyMDA">
   <bns:encryptedValues/>
   <bns:description/>
   <bns:object>
@@ -26,17 +26,7 @@
             </documentproperties>
           </configuration>
           <dragpoints>
-            <dragpoint name="shape2.dragpoint1" toShape="shape4" x="416.0" y="56.0"/>
-          </dragpoints>
-        </shape>
-        <shape image="documentproperties_icon" name="shape4" shapetype="documentproperties" userlabel="" x="432.0" y="48.0">
-          <configuration>
-            <documentproperties>
-              <documentproperty defaultValue="" isDynamicCredential="false" isTradingPartner="false" name="Dynamic Document Property - DDP_TEST_MESSAGE" persist="false" propertyId="dynamicdocument.DDP_TEST_MESSAGE" shouldEncrypt="false"/>
-            </documentproperties>
-          </configuration>
-          <dragpoints>
-            <dragpoint name="shape4.dragpoint1" toShape="shape5" x="608.0" y="56.0"/>
+            <dragpoint name="shape2.dragpoint1" toShape="shape5" x="608.0" y="56.0"/>
           </dragpoints>
         </shape>
         <shape image="branch_icon" name="shape5" shapetype="branch" userlabel="" x="624.0" y="48.0">
@@ -44,19 +34,9 @@
             <branch numBranches="3"/>
           </configuration>
           <dragpoints>
-            <dragpoint identifier="1" name="shape5.dragpoint1" text="1" toShape="shape6" x="800.0" y="56.0"/>
+            <dragpoint identifier="1" name="shape5.dragpoint1" text="1" toShape="shape9" x="992.0" y="56.0"/>
             <dragpoint identifier="2" name="shape5.dragpoint2" text="2" toShape="shape7" x="800.0" y="216.0"/>
             <dragpoint identifier="3" name="shape5.dragpoint3" text="3" toShape="shape8" x="800.0" y="376.0"/>
-          </dragpoints>
-        </shape>
-        <shape image="documentproperties_icon" name="shape6" shapetype="documentproperties" userlabel="" x="816.0" y="48.0">
-          <configuration>
-            <documentproperties>
-              <documentproperty defaultValue="" isDynamicCredential="false" isTradingPartner="false" name="Dynamic Document Property - DDP_TEST_MESSAGE" persist="false" propertyId="dynamicdocument.DDP_TEST_MESSAGE" shouldEncrypt="false"/>
-            </documentproperties>
-          </configuration>
-          <dragpoints>
-            <dragpoint name="shape6.dragpoint1" toShape="shape9" x="992.0" y="56.0"/>
           </dragpoints>
         </shape>
         <shape image="documentproperties_icon" name="shape7" shapetype="documentproperties" userlabel="Branch2" x="816.0" y="208.0">
