@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<bns:Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bns="http://api.platform.boomi.com/" folderFullPath="Training-Darko-Mirchevski/Doubleservice" componentId="1250af1a-0989-4ed6-8de7-8f64a2eadd63" version="1" name="Document Cache" type="documentcache" createdDate="2025-01-21T13:31:30Z" createdBy="mirchevski.darko@uklo.edu.mk" modifiedDate="2025-01-21T13:31:30Z" modifiedBy="mirchevski.darko@uklo.edu.mk" deleted="false" currentVersion="true" folderName="Doubleservice" folderId="Rjo3MTU1ODE0" branchName="main" branchId="Qjo0MDgyMDA">
+  <bns:encryptedValues/>
+  <bns:description/>
+  <bns:object>
+    <DocumentCache xmlns="" enforceSingleLucene="true" profileType="profile.any"/>
+  </bns:object>
+</bns:Component>

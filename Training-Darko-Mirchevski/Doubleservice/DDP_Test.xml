@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<bns:Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bns="http://api.platform.boomi.com/" folderFullPath="Training-Darko-Mirchevski/Doubleservice" componentId="b3cf8ae8-0580-413d-aec6-2da783b72019" version="17" name="DDP_Test" type="process" createdDate="2025-01-13T13:06:56Z" createdBy="mirchevski.darko@uklo.edu.mk" modifiedDate="2025-01-21T13:33:00Z" modifiedBy="mirchevski.darko@uklo.edu.mk" deleted="false" currentVersion="true" folderName="Doubleservice" folderId="Rjo3MTU1ODE0" branchName="main" branchId="Qjo0MDgyMDA">
+<bns:Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bns="http://api.platform.boomi.com/" folderFullPath="Training-Darko-Mirchevski/Doubleservice" componentId="b3cf8ae8-0580-413d-aec6-2da783b72019" version="18" name="DDP_Test" type="process" createdDate="2025-01-13T13:06:56Z" createdBy="mirchevski.darko@uklo.edu.mk" modifiedDate="2025-01-21T13:52:34Z" modifiedBy="mirchevski.darko@uklo.edu.mk" deleted="false" currentVersion="true" folderName="Doubleservice" folderId="Rjo3MTU1ODE0" branchName="main" branchId="Qjo0MDgyMDA">
   <bns:encryptedValues/>
   <bns:description/>
   <bns:object>
@@ -40,7 +40,7 @@
             <dragpoint identifier="3" name="shape5.dragpoint3" text="3" toShape="shape8" x="608.0" y="376.0"/>
             <dragpoint identifier="4" name="shape5.dragpoint4" text="4" toShape="shape13" x="608.0" y="536.0"/>
             <dragpoint identifier="5" name="shape5.dragpoint5" text="5" toShape="shape18" x="608.0" y="696.0"/>
-            <dragpoint identifier="6" name="shape5.dragpoint6" text="6" toShape="unset" x="608.0" y="856.0"/>
+            <dragpoint identifier="6" name="shape5.dragpoint6" text="6" toShape="shape20" x="608.0" y="856.0"/>
             <dragpoint identifier="7" name="shape5.dragpoint7" text="7" toShape="unset" x="608.0" y="536.0"/>
           </dragpoints>
         </shape>
@@ -116,6 +116,12 @@
         <shape image="stop_icon" name="shape19" shapetype="stop" x="768.0" y="688.0">
           <configuration>
             <stop continue="true"/>
+          </configuration>
+          <dragpoints/>
+        </shape>
+        <shape image="doccacheload_icon" name="shape20" shapetype="doccacheload" userlabel="" x="624.0" y="848.0">
+          <configuration>
+            <doccacheload docCache="1250af1a-0989-4ed6-8de7-8f64a2eadd63"/>
           </configuration>
           <dragpoints/>
         </shape>
