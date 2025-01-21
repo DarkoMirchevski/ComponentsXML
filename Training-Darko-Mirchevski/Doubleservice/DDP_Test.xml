@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<bns:Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bns="http://api.platform.boomi.com/" folderFullPath="Training-Darko-Mirchevski/Doubleservice" componentId="b3cf8ae8-0580-413d-aec6-2da783b72019" version="12" name="DDP_Test" type="process" createdDate="2025-01-13T13:06:56Z" createdBy="mirchevski.darko@uklo.edu.mk" modifiedDate="2025-01-13T14:26:48Z" modifiedBy="mirchevski.darko@uklo.edu.mk" deleted="false" currentVersion="true" folderName="Doubleservice" folderId="Rjo3MTU1ODE0" branchName="main" branchId="Qjo0MDgyMDA">
+<bns:Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bns="http://api.platform.boomi.com/" folderFullPath="Training-Darko-Mirchevski/Doubleservice" componentId="b3cf8ae8-0580-413d-aec6-2da783b72019" version="17" name="DDP_Test" type="process" createdDate="2025-01-13T13:06:56Z" createdBy="mirchevski.darko@uklo.edu.mk" modifiedDate="2025-01-21T13:33:00Z" modifiedBy="mirchevski.darko@uklo.edu.mk" deleted="false" currentVersion="true" folderName="Doubleservice" folderId="Rjo3MTU1ODE0" branchName="main" branchId="Qjo0MDgyMDA">
   <bns:encryptedValues/>
   <bns:description/>
   <bns:object>
@@ -23,23 +23,28 @@
                   </parametervalue>
                 </sourcevalues>
               </documentproperty>
+              <documentproperty defaultValue="" isDynamicCredential="false" isTradingPartner="false" name="Process Property - Process Property - Process Property #1" persist="false" propertyId="definedprocess.7c66d466-6fd7-4206-b4a4-6b1c273737c8@4d7f0ee1-21e8-405c-8d21-ecf5639d530c" shouldEncrypt="false"/>
             </documentproperties>
           </configuration>
           <dragpoints>
-            <dragpoint name="shape2.dragpoint1" toShape="shape5" x="608.0" y="56.0"/>
+            <dragpoint name="shape2.dragpoint1" toShape="shape5" x="416.0" y="56.0"/>
           </dragpoints>
         </shape>
-        <shape image="branch_icon" name="shape5" shapetype="branch" userlabel="" x="624.0" y="48.0">
+        <shape image="branch_icon" name="shape5" shapetype="branch" userlabel="" x="432.0" y="48.0">
           <configuration>
-            <branch numBranches="3"/>
+            <branch numBranches="7"/>
           </configuration>
           <dragpoints>
-            <dragpoint identifier="1" name="shape5.dragpoint1" text="1" toShape="shape9" x="992.0" y="56.0"/>
-            <dragpoint identifier="2" name="shape5.dragpoint2" text="2" toShape="shape10" x="992.0" y="216.0"/>
-            <dragpoint identifier="3" name="shape5.dragpoint3" text="3" toShape="shape8" x="800.0" y="376.0"/>
+            <dragpoint identifier="1" name="shape5.dragpoint1" text="1" toShape="shape9" x="608.0" y="56.0"/>
+            <dragpoint identifier="2" name="shape5.dragpoint2" text="2" toShape="shape12" x="608.0" y="216.0"/>
+            <dragpoint identifier="3" name="shape5.dragpoint3" text="3" toShape="shape8" x="608.0" y="376.0"/>
+            <dragpoint identifier="4" name="shape5.dragpoint4" text="4" toShape="shape13" x="608.0" y="536.0"/>
+            <dragpoint identifier="5" name="shape5.dragpoint5" text="5" toShape="shape18" x="608.0" y="696.0"/>
+            <dragpoint identifier="6" name="shape5.dragpoint6" text="6" toShape="unset" x="608.0" y="856.0"/>
+            <dragpoint identifier="7" name="shape5.dragpoint7" text="7" toShape="unset" x="608.0" y="536.0"/>
           </dragpoints>
         </shape>
-        <shape image="documentproperties_icon" name="shape8" shapetype="documentproperties" userlabel="Branch3" x="816.0" y="368.0">
+        <shape image="documentproperties_icon" name="shape8" shapetype="documentproperties" userlabel="Branch3" x="624.0" y="368.0">
           <configuration>
             <documentproperties>
               <documentproperty defaultValue="" isDynamicCredential="false" isTradingPartner="false" name="Dynamic Document Property - DDP_LOG_MESSAGE" persist="false" propertyId="dynamicdocument.DDP_LOG_MESSAGE" shouldEncrypt="false">
@@ -52,22 +57,63 @@
             </documentproperties>
           </configuration>
           <dragpoints>
-            <dragpoint name="shape8.dragpoint1" toShape="shape11" x="992.0" y="376.0"/>
+            <dragpoint name="shape8.dragpoint1" toShape="shape11" x="800.0" y="376.0"/>
           </dragpoints>
         </shape>
-        <shape image="stop_icon" name="shape9" shapetype="stop" x="1008.0" y="48.0">
+        <shape image="stop_icon" name="shape9" shapetype="stop" x="624.0" y="48.0">
           <configuration>
             <stop continue="true"/>
           </configuration>
           <dragpoints/>
         </shape>
-        <shape image="stop_icon" name="shape10" shapetype="stop" x="1008.0" y="208.0">
+        <shape image="stop_icon" name="shape10" shapetype="stop" x="816.0" y="208.0">
           <configuration>
             <stop continue="true"/>
           </configuration>
           <dragpoints/>
         </shape>
-        <shape image="stop_icon" name="shape11" shapetype="stop" x="1008.0" y="368.0">
+        <shape image="stop_icon" name="shape11" shapetype="stop" x="816.0" y="368.0">
+          <configuration>
+            <stop continue="true"/>
+          </configuration>
+          <dragpoints/>
+        </shape>
+        <shape image="connectoraction_icon" name="shape12" shapetype="connectoraction" userlabel="" x="624.0" y="208.0">
+          <configuration>
+            <connectoraction actionType="Get" allowDynamicCredentials="NONE" connectionId="f55e3c36-3cda-4c6f-8e77-fc3cfb7dd4c3" connectorType="http" hideSettings="false" operationId="7e52cbdf-da3f-4b35-9ae7-ce15a257377b" parameter-profile="EMBEDDED|HttpParameterChooser|7e52cbdf-da3f-4b35-9ae7-ce15a257377b">
+              <parameters/>
+              <dynamicProperties/>
+            </connectoraction>
+          </configuration>
+          <dragpoints>
+            <dragpoint name="shape12.dragpoint1" toShape="shape10" x="800.0" y="216.0"/>
+          </dragpoints>
+        </shape>
+        <shape image="map_icon" name="shape13" shapetype="map" userlabel="" x="624.0" y="528.0">
+          <configuration>
+            <map mapId="d0f7f468-d45d-496c-b7b8-5992edbe4ae8"/>
+          </configuration>
+          <dragpoints>
+            <dragpoint name="shape13.dragpoint1" toShape="shape14" x="800.0" y="536.0"/>
+          </dragpoints>
+        </shape>
+        <shape image="stop_icon" name="shape14" shapetype="stop" x="816.0" y="528.0">
+          <configuration>
+            <stop continue="true"/>
+          </configuration>
+          <dragpoints/>
+        </shape>
+        <shape image="processroute_icon" name="shape18" shapetype="processroute" userlabel="" x="624.0" y="688.0">
+          <configuration>
+            <processroutecall abort="true" processRouteId="resource::rout:e682650c-6d47-4a5c-b68b-98b53940ad60" processRouteName="route by des" routeType="processroute" wait="true">
+              <returnpaths/>
+            </processroutecall>
+          </configuration>
+          <dragpoints>
+            <dragpoint identifier="default" name="shape18.dragpoint1" text="Default" toShape="shape19" x="752.0" y="696.0"/>
+          </dragpoints>
+        </shape>
+        <shape image="stop_icon" name="shape19" shapetype="stop" x="768.0" y="688.0">
           <configuration>
             <stop continue="true"/>
           </configuration>
