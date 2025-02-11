@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<bns:Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bns="http://api.platform.boomi.com/" folderFullPath="Training-Darko-Mirchevski/Test" componentId="7c02620b-764c-4796-aa58-ac66abdb5810" version="1" name="Iksemel Profil" type="profile.xml" createdDate="2025-01-29T12:13:13Z" createdBy="mirchevski.darko@uklo.edu.mk" modifiedDate="2025-01-29T12:13:13Z" modifiedBy="mirchevski.darko@uklo.edu.mk" deleted="false" currentVersion="true" folderName="Test" folderId="Rjo2NTE3MzM5" branchName="main" branchId="Qjo0MDgyMDA">
+  <bns:encryptedValues/>
+  <bns:description/>
+  <bns:object>
+    <XMLProfile xmlns="" modelVersion="2" strict="true">
+      <ProfileProperties>
+        <XMLGeneralInfo/>
+        <XMLOptions encoding="utf8" implicitElementOrdering="true" parseRespectMaxOccurs="true" respectMinOccurs="false" respectMinOccursAlways="false"/>
+      </ProfileProperties>
+      <DataElements>
+        <XMLElement dataType="character" isMappable="true" isNode="true" isRoot="true" key="1" loopingOption="unique" maxOccurs="-1" minOccurs="1" name="Root" useNamespace="-1" validateData="false">
+          <DataFormat>
+            <ProfileCharacterFormat/>
+          </DataFormat>
+          <QualifierList/>
+          <XMLElement dataType="character" isMappable="true" isNode="true" key="2" loopingOption="unique" maxOccurs="1" minOccurs="0" name="Test" useNamespace="-1" validateData="false">
+            <DataFormat>
+              <ProfileCharacterFormat/>
+            </DataFormat>
+            <QualifierList/>
+          </XMLElement>
+        </XMLElement>
+      </DataElements>
+      <Namespaces>
+        <XMLNamespace key="-1" name="Empty Namespace">
+          <Types/>
+        </XMLNamespace>
+      </Namespaces>
+      <tagLists/>
+    </XMLProfile>
+  </bns:object>
+</bns:Component>

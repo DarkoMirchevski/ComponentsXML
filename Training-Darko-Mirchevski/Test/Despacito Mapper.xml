@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<bns:Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bns="http://api.platform.boomi.com/" folderFullPath="Training-Darko-Mirchevski/Test" componentId="9a9e77de-ebf0-4f76-b153-cdd7713800b9" version="2" name="Despacito Mapper" type="transform.map" createdDate="2025-01-29T12:11:27Z" createdBy="mirchevski.darko@uklo.edu.mk" modifiedDate="2025-01-29T12:15:17Z" modifiedBy="mirchevski.darko@uklo.edu.mk" deleted="false" currentVersion="true" folderName="Test" folderId="Rjo2NTE3MzM5" branchName="main" branchId="Qjo0MDgyMDA">
+  <bns:encryptedValues/>
+  <bns:description/>
+  <bns:object>
+    <Map xmlns="" fromProfile="fba9887f-0fba-48c6-9a15-e1f1a33dc396" toProfile="7c02620b-764c-4796-aa58-ac66abdb5810">
+      <Mappings>
+        <Mapping fromKey="3" fromKeyPath="*[@key='1']/*[@key='2']/*[@key='3']" fromNamePath="Root/Object/Test" fromType="profile" toFunction="1" toKey="1" toType="function"/>
+        <Mapping fromFunction="1" fromKey="1" fromType="function" toKey="2" toKeyPath="*[@key='1']/*[@key='2']" toNamePath="Root/Test" toType="profile"/>
+      </Mappings>
+      <Functions optimizeExecutionOrder="true">
+        <FunctionStep category="userdefined" id="9b46c9d0-ca5a-4e59-bdd3-8759d97f6db3" key="1" name="Map funkcija" position="1" type="userdefined" x="10.0" y="10.0">
+          <Inputs>
+            <Input key="1" name="Test"/>
+          </Inputs>
+          <Outputs>
+            <Output key="1" name="test"/>
+          </Outputs>
+          <Configuration/>
+        </FunctionStep>
+      </Functions>
+      <Defaults/>
+      <DocumentCacheJoins/>
+    </Map>
+  </bns:object>
+</bns:Component>

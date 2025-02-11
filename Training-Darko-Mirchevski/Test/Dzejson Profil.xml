@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<bns:Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bns="http://api.platform.boomi.com/" folderFullPath="Training-Darko-Mirchevski/Test" componentId="fba9887f-0fba-48c6-9a15-e1f1a33dc396" version="1" name="Dzejson Profil" type="profile.json" createdDate="2025-01-29T12:12:29Z" createdBy="mirchevski.darko@uklo.edu.mk" modifiedDate="2025-01-29T12:12:29Z" modifiedBy="mirchevski.darko@uklo.edu.mk" deleted="false" currentVersion="true" folderName="Test" folderId="Rjo2NTE3MzM5" branchName="main" branchId="Qjo0MDgyMDA">
+  <bns:encryptedValues/>
+  <bns:description/>
+  <bns:object>
+    <JSONProfile xmlns="">
+      <DataElements>
+        <JSONRootValue allowEmpty="false" dataType="character" isMappable="false" isNode="true" key="1" name="Root" rootLoopingOption="unique" validateData="false">
+          <DataFormat>
+            <ProfileCharacterFormat/>
+          </DataFormat>
+          <JSONObject isMappable="false" isNode="true" key="2" name="Object">
+            <JSONObjectEntry allowEmpty="false" dataType="character" isMappable="true" isNode="true" key="3" name="Test" validateData="false">
+              <DataFormat>
+                <ProfileCharacterFormat/>
+              </DataFormat>
+              <Qualifiers>
+                <QualifierList/>
+              </Qualifiers>
+            </JSONObjectEntry>
+          </JSONObject>
+          <Qualifiers>
+            <QualifierList/>
+          </Qualifiers>
+        </JSONRootValue>
+      </DataElements>
+      <tagLists/>
+    </JSONProfile>
+  </bns:object>
+</bns:Component>

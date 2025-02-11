@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<bns:Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bns="http://api.platform.boomi.com/" folderFullPath="Training-Darko-Mirchevski/Test" componentId="d38fb0fd-d288-4d57-aa01-2725793a72b6" version="11" name="[Listener]-Leads-Legacy ID Lookup-v1" type="process" createdDate="2025-01-22T10:43:41Z" createdBy="mirchevski.darko@uklo.edu.mk" modifiedDate="2025-01-29T12:15:20Z" modifiedBy="mirchevski.darko@uklo.edu.mk" deleted="false" currentVersion="true" folderName="Test" folderId="Rjo2NTE3MzM5" branchName="main" branchId="Qjo0MDgyMDA">
+  <bns:encryptedValues/>
+  <bns:description/>
+  <bns:object>
+    <process xmlns="" allowSimultaneous="true" enableUserLog="false" processLogOnErrorOnly="false" purgeDataImmediately="false" updateRunDates="false" workload="general">
+      <shapes>
+        <shape image="start" name="shape1" shapetype="start" userlabel="" x="48.0" y="46.0">
+          <configuration>
+            <passthroughaction/>
+          </configuration>
+          <dragpoints>
+            <dragpoint name="shape1.dragpoint1" toShape="shape5" x="224.0" y="56.0"/>
+          </dragpoints>
+        </shape>
+        <shape image="stop_icon" name="shape2" shapetype="stop" x="624.0" y="48.0">
+          <configuration>
+            <stop continue="true"/>
+          </configuration>
+          <dragpoints/>
+        </shape>
+        <shape image="connectoraction_icon" name="shape5" shapetype="connectoraction" userlabel="" x="240.0" y="48.0">
+          <configuration>
+            <connectoraction actionType="Get" allowDynamicCredentials="NONE" connectionId="776bc5fa-6b0f-4fae-a5da-e1331a65583c" connectorType="http" hideSettings="false" operationId="00150a3b-41e3-4df8-9948-a8d7e14930ed" parameter-profile="EMBEDDED|HttpParameterChooser|00150a3b-41e3-4df8-9948-a8d7e14930ed">
+              <parameters/>
+              <dynamicProperties/>
+            </connectoraction>
+          </configuration>
+          <dragpoints>
+            <dragpoint name="shape5.dragpoint1" toShape="shape6" x="416.0" y="56.0"/>
+          </dragpoints>
+        </shape>
+        <shape image="map_icon" name="shape6" shapetype="map" userlabel="" x="432.0" y="48.0">
+          <configuration>
+            <map mapId="9a9e77de-ebf0-4f76-b153-cdd7713800b9"/>
+          </configuration>
+          <dragpoints>
+            <dragpoint name="shape6.dragpoint1" toShape="shape2" x="608.0" y="56.0"/>
+          </dragpoints>
+        </shape>
+      </shapes>
+    </process>
+  </bns:object>
+  <bns:processOverrides/>
+</bns:Component>
