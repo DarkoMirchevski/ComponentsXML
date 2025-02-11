@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<bns:Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bns="http://api.platform.boomi.com/" folderFullPath="Training-Darko-Mirchevski/CICD" componentId="c457ac93-4b94-4361-9aee-6ee0061b2d50" version="1" name="New Web Services Server Connector Operation" type="connector-action" subType="wss" createdDate="2025-02-11T10:05:46Z" createdBy="mirchevski.darko@uklo.edu.mk" modifiedDate="2025-02-11T10:05:46Z" modifiedBy="mirchevski.darko@uklo.edu.mk" deleted="false" currentVersion="true" folderName="CICD" folderId="Rjo3NDA3NTA3" branchName="main" branchId="Qjo0MDgyMDA">
+  <bns:encryptedValues/>
+  <bns:description/>
+  <bns:object>
+    <Operation xmlns="">
+      <Archiving directory="" enabled="false"/>
+      <Configuration>
+        <WebServicesServerListenAction inputType="none" objectName="" operationType="GET" outputType="none" responseContentType="text/plain"/>
+      </Configuration>
+      <Tracking>
+        <TrackedFields/>
+      </Tracking>
+      <Caching/>
+    </Operation>
+  </bns:object>
+</bns:Component>
