@@ -1,9 +1,9 @@
 <?xml version="1.0" ?>
-<bns:Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bns="http://api.platform.boomi.com/" folderFullPath="Training-Darko-Mirchevski/CICD" componentId="1cc42f7d-5f78-4630-b77a-b45a8fdf26c3" version="17" name="[Listen]-Test-v1" type="process" createdDate="2025-02-11T10:06:04Z" createdBy="mirchevski.darko@uklo.edu.mk" modifiedDate="2025-02-14T11:12:43Z" modifiedBy="mirchevski.darko@uklo.edu.mk" deleted="false" currentVersion="true" folderName="CICD" folderId="Rjo3NDA3NTA3" branchName="main" branchId="Qjo0MDgyMDA">
+<bns:Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bns="http://api.platform.boomi.com/" folderFullPath="Training-Darko-Mirchevski/CICD" componentId="1cc42f7d-5f78-4630-b77a-b45a8fdf26c3" version="18" name="[Listen]-Test-v1" type="process" createdDate="2025-02-11T10:06:04Z" createdBy="mirchevski.darko@uklo.edu.mk" modifiedDate="2025-02-14T11:53:47Z" modifiedBy="mirchevski.darko@uklo.edu.mk" deleted="false" currentVersion="true" folderName="CICD" folderId="Rjo3NDA3NTA3" branchName="main" branchId="Qjo0MDgyMDA">
   <bns:encryptedValues/>
   <bns:description/>
   <bns:object>
-    <process xmlns="" allowSimultaneous="false" enableUserLog="false" processLogOnErrorOnly="false" purgeDataImmediately="false" updateRunDates="true" workload="general">
+    <process xmlns="" allowSimultaneous="true" enableUserLog="false" processLogOnErrorOnly="true" purgeDataImmediately="false" updateRunDates="false" workload="low_latency">
       <shapes>
         <shape image="start" name="shape1" shapetype="start" userlabel="[Listen]" x="48.0" y="46.0">
           <configuration>
