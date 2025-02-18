@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<bns:Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bns="http://api.platform.boomi.com/" folderFullPath="Training-Darko-Mirchevski/CICD" componentId="735b95cb-79d7-41e9-9088-d890f37dc034" version="7" name="[Sub]-Test-v1" type="process" createdDate="2025-02-17T14:44:18Z" createdBy="mirchevski.darko@uklo.edu.mk" modifiedDate="2025-02-18T10:23:32Z" modifiedBy="mirchevski.darko@uklo.edu.mk" deleted="false" currentVersion="true" folderName="CICD" folderId="Rjo3NDA3NTA3" branchName="main" branchId="Qjo0MDgyMDA">
+  <bns:encryptedValues/>
+  <bns:description/>
+  <bns:object>
+    <process xmlns="" allowSimultaneous="false" enableUserLog="false" processLogOnErrorOnly="false" purgeDataImmediately="false" updateRunDates="true" workload="general">
+      <shapes>
+        <shape image="start" name="shape1" shapetype="start" userlabel="" x="48.0" y="46.0">
+          <configuration>
+            <noaction/>
+          </configuration>
+          <dragpoints>
+            <dragpoint name="shape1.dragpoint1" toShape="shape5" x="224.0" y="56.0"/>
+          </dragpoints>
+        </shape>
+        <shape image="returndocuments_icon" name="shape4" shapetype="returndocuments" x="432.0" y="48.0">
+          <configuration>
+            <returndocuments/>
+          </configuration>
+          <dragpoints/>
+        </shape>
+        <shape image="connectoraction_icon" name="shape5" shapetype="connectoraction" userlabel="" x="240.0" y="48.0">
+          <configuration>
+            <connectoraction actionType="Send" allowDynamicCredentials="NONE" connectionId="3fdb6b30-7455-4a5d-ba1c-1ab93de81b05" connectorType="http" hideSettings="false" operationId="0a99f31d-94ab-4949-9df1-b71d761c0f11" parameter-profile="EMBEDDED|HttpParameterChooser|0a99f31d-94ab-4949-9df1-b71d761c0f11">
+              <parameters/>
+              <dynamicProperties/>
+            </connectoraction>
+          </configuration>
+          <dragpoints>
+            <dragpoint name="shape5.dragpoint1" toShape="shape4" x="416.0" y="56.0"/>
+          </dragpoints>
+        </shape>
+      </shapes>
+    </process>
+  </bns:object>
+  <bns:processOverrides>
+    <Overrides xmlns="">
+      <Connections>
+        <ConnectionOverride id="3fdb6b30-7455-4a5d-ba1c-1ab93de81b05">
+          <field id="url" label="URL" overrideable="true" xpath="HttpSettings/@url"/>
+          <field id="connectTimeout" label="Connect Timeout" overrideable="false" xpath="HttpSettings/@connectTimeout"/>
+          <field id="readTimeout" label="Read Timeout" overrideable="false" xpath="HttpSettings/@readTimeout"/>
+          <field id="useBasicAuth" label="Use Basic Authentication" overrideable="false" xpath="HttpSettings/@useBasicAuth"/>
+          <field id="user" label="User" overrideable="false" xpath="HttpSettings/AuthSettings/@user"/>
+          <field id="password" label="Password" overrideable="false" xpath="HttpSettings/AuthSettings/@password"/>
+          <field id="consumerKey" label="OAuth Consumer Key" overrideable="false" xpath="HttpSettings/OAuthSettings/@consumerKey"/>
+          <field id="accessToken" label="OAuth Access Token" overrideable="false" xpath="HttpSettings/OAuthSettings/@accessToken"/>
+          <field id="tokenSecret" label="OAuth Token Secret" overrideable="false" xpath="HttpSettings/OAuthSettings/@tokenSecret"/>
+          <field id="requestTokenURL" label="OAuth Request Token URL" overrideable="false" xpath="HttpSettings/OAuthSettings/@requestTokenURL"/>
+          <field id="authorizationURL" label="OAuth Authorization URL" overrideable="false" xpath="HttpSettings/OAuthSettings/@authorizationURL"/>
+          <field id="accessTokenURL" label="OAuth Access URL" overrideable="false" xpath="HttpSettings/OAuthSettings/@accessTokenURL"/>
+          <field id="consumerSecret" label="OAuth Consumer Secret" overrideable="false" xpath="HttpSettings/OAuthSettings/@consumerSecret"/>
+          <field id="realm" label="OAuth Realm" overrideable="false" xpath="HttpSettings/OAuthSettings/@realm"/>
+          <field id="signatureMethod" label="OAuth Signature Method" overrideable="false" xpath="HttpSettings/OAuthSettings/@signatureMethod"/>
+          <field id="clientauth" label="Use Client Authorization" overrideable="false" xpath="HttpSettings/SSLOptions/@clientauth"/>
+          <field id="clientsslalias" label="Client SSL Certificate" overrideable="false" xpath="HttpSettings/SSLOptions/@clientsslalias"/>
+          <field id="trustServerCert" label="Use Trusted SSL Certificate" overrideable="false" xpath="HttpSettings/SSLOptions/@trustServerCert"/>
+          <field id="trustedcertalias" label="Trust SSL Server Certificate" overrideable="false" xpath="HttpSettings/SSLOptions/@trustedcertalias"/>
+          <field id="clientId" label="OAuth2 Client ID" overrideable="false" xpath="HttpSettings/OAuth2Settings/credentials/@clientId"/>
+          <field id="clientSecret" label="OAuth2 Client Secret" overrideable="false" xpath="HttpSettings/OAuth2Settings/credentials/@clientSecret"/>
+          <field id="authTokenURL2" label="OAuth2 Authorization Token URL" overrideable="false" xpath="HttpSettings/OAuth2Settings/authorizationTokenEndpoint/@url"/>
+          <field id="authorizationParameters" label="OAuth2 Authorization Parameters" overrideable="false" xpath="HttpSettings/OAuth2Settings/authorizationParameters"/>
+          <field id="accessTokenURL2" label="OAuth2 Access Token URL" overrideable="false" xpath="HttpSettings/OAuth2Settings/accessTokenEndpoint/@url"/>
+          <field id="accessTokenParameters" label="OAuth2 Access Token Parameters" overrideable="false" xpath="HttpSettings/OAuth2Settings/accessTokenParameters"/>
+          <field id="scope" label="OAuth2 Scope" overrideable="false" xpath="HttpSettings/OAuth2Settings/scope"/>
+          <field id="accessToken2" label="OAuth2 Access Token" overrideable="false" xpath="HttpSettings/OAuth2Settings/credentials/@accessToken"/>
+          <field id="refreshAuthScheme" label="OAuth2 Refresh Authorization Scheme" overrideable="false" xpath="HttpSettings/OAuth2Settings/@refreshAuthScheme"/>
+          <field id="accessKeyId" label="Amazon AWS Access Key" overrideable="false" xpath="HttpSettings/AwsSettings/credentials/accessKeyId"/>
+          <field id="awsSecret" label="Amazon AWS Secret Key" overrideable="false" xpath="HttpSettings/AwsSettings/credentials/awsSecret"/>
+          <field id="awsRegion" label="Amazon AWS Region" overrideable="false" xpath="HttpSettings/AwsSettings/credentials/awsRegion"/>
+          <field id="customRegion" label="Custom Region" overrideable="false" xpath="HttpSettings/AwsSettings/credentials/customRegion"/>
+        </ConnectionOverride>
+      </Connections>
+      <Operations/>
+      <PartnerOverrides/>
+      <Properties/>
+      <Extensions>
+        <ObjectDefinitions>
+          <unusedProfiles/>
+        </ObjectDefinitions>
+        <DataMaps>
+          <unusedMaps/>
+        </DataMaps>
+      </Extensions>
+      <CrossReferenceOverrides/>
+      <PGPOverrides/>
+      <DefinedProcessPropertyOverrides/>
+    </Overrides>
+  </bns:processOverrides>
+</bns:Component>
