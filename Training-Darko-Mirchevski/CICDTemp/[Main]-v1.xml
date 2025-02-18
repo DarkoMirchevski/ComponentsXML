@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<bns:Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bns="http://api.platform.boomi.com/" folderFullPath="Training-Darko-Mirchevski/CICDTemp" componentId="52b1ebcf-8e2d-4d69-80b1-a927f11851b8" version="3" name="[Main]-v1" type="process" createdDate="2025-02-18T12:51:44Z" createdBy="mirchevski.darko@uklo.edu.mk" modifiedDate="2025-02-18T12:54:26Z" modifiedBy="mirchevski.darko@uklo.edu.mk" deleted="false" currentVersion="true" folderName="CICDTemp" folderId="Rjo3NDI1OTk1" branchName="main" branchId="Qjo0MDgyMDA">
+<bns:Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bns="http://api.platform.boomi.com/" folderFullPath="Training-Darko-Mirchevski/CICDTemp" componentId="52b1ebcf-8e2d-4d69-80b1-a927f11851b8" version="4" name="[Main]-v1" type="process" createdDate="2025-02-18T12:51:44Z" createdBy="mirchevski.darko@uklo.edu.mk" modifiedDate="2025-02-18T12:55:28Z" modifiedBy="mirchevski.darko@uklo.edu.mk" deleted="false" currentVersion="true" folderName="CICDTemp" folderId="Rjo3NDI1OTk1" branchName="main" branchId="Qjo0MDgyMDA">
   <bns:encryptedValues/>
   <bns:description/>
   <bns:object>
@@ -16,7 +16,7 @@
         <shape image="exception_icon" name="shape3" shapetype="exception" userlabel="" x="256.0" y="96.0">
           <configuration>
             <exception stopProcessReturnSingleDoc="false" stopsingledoc="true" title="">
-              <exMessage/>
+              <exMessage>test</exMessage>
               <exParameters/>
             </exception>
           </configuration>
