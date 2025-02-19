@@ -1,8 +1,4 @@
 # Packaged Components Code Quality Report
 |#|Component Name|Component ID|Version|Type|Issue|Issue Type|Priority|
 |---|---|---|---|---|---|---|---|
-|1|[New HTTP Client Connector Operation](Report/Training-Darko-Mirchevski/Root/Parent/Child/New HTTP Client Connector Operation.xml)|f35dc4a4-5065-4ff6-bf72-d3eada66c571|1|connector-action|Component names must not start with "New " which is Boomi"s default. They should be named to have a accurate description.|BUG|MAJOR|
-|2|[New HTTP Client Connector Operation](Report/Training-Darko-Mirchevski/Root/Parent/Child/New HTTP Client Connector Operation.xml)|f35dc4a4-5065-4ff6-bf72-d3eada66c571|1|connector-action|The name of connection operation must include square brackets ([]) with uppercase text inside (e.g., [Salesforce], [Leads], [SAP]). This rule ensures compliance with CHG naming conventions.|CODE_SMELL|MINOR|
-|3|[[Main]-Child-v1](Report/Training-Darko-Mirchevski/Root/Parent/Child/[Main]-Child-v1.xml)|576b65e6-73ff-4b90-a3b4-ceba0ae84c76|4|process|Process description should be set|CODE_SMELL|MINOR|
-|4|[New HTTP Client Connection](Report/Training-Darko-Mirchevski/Root/Parent/Child/New HTTP Client Connection.xml)|b0f57e97-d1ac-4c54-9cc2-8e47ad4a6cdf|1|connector-settings|Component names must not start with "New " which is Boomi"s default. They should be named to have a accurate description.|BUG|MAJOR|
-|5|[New HTTP Client Connection](Report/Training-Darko-Mirchevski/Root/Parent/Child/New HTTP Client Connection.xml)|b0f57e97-d1ac-4c54-9cc2-8e47ad4a6cdf|1|connector-settings|The name of connection components must include square brackets ([]) with uppercase text inside (e.g., [Salesforce], [Leads], [SAP]). This rule ensures compliance with CHG naming conventions.|CODE_SMELL|MINOR|
+|1|[[Main]-Parent-v1](Report/Training-Darko-Mirchevski/Root/Parent/Child/[Main]-Parent-v1.xml)|f96f03f5-1f98-4575-8aa9-1162093014cf|2|process|Process description should be set|CODE_SMELL|MINOR|
