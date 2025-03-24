@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<bns:Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bns="http://api.platform.boomi.com/" folderFullPath="Training-Darko-Mirchevski/Root/Parent/Child" componentId="576b65e6-73ff-4b90-a3b4-ceba0ae84c76" version="19" name="[Main]-Child-v1" type="process" createdDate="2025-02-19T09:40:44Z" createdBy="mirchevski.darko@uklo.edu.mk" modifiedDate="2025-03-10T16:11:51Z" modifiedBy="darkomircevski7@yahoo.com" deleted="false" currentVersion="true" folderName="Child" folderId="Rjo3NDI4NjY2" branchName="main" branchId="Qjo0MDgyMDA">
+<bns:Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bns="http://api.platform.boomi.com/" folderFullPath="Training-Darko-Mirchevski/Root/Parent/Child" componentId="576b65e6-73ff-4b90-a3b4-ceba0ae84c76" version="20" name="[Main]-Child-v2" type="process" createdDate="2025-02-19T09:40:44Z" createdBy="mirchevski.darko@uklo.edu.mk" modifiedDate="2025-03-21T09:32:54Z" modifiedBy="mirchevski.darko@uklo.edu.mk" deleted="false" currentVersion="true" folderName="Child" folderId="Rjo3NDI4NjY2" branchName="main" branchId="Qjo0MDgyMDA">
   <bns:encryptedValues/>
   <bns:description/>
   <bns:object>
