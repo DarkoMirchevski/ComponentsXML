@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<bns:Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bns="http://api.platform.boomi.com/" folderFullPath="Training-Darko-Mirchevski/Root/Parent/Child" componentId="576b65e6-73ff-4b90-a3b4-ceba0ae84c76" version="27" name="[Main]-Child-v3" type="process" createdDate="2025-02-19T09:40:44Z" createdBy="mirchevski.darko@uklo.edu.mk" modifiedDate="2025-04-02T12:14:02Z" modifiedBy="mirchevski.darko@uklo.edu.mk" deleted="false" currentVersion="true" folderName="Child" folderId="Rjo3NDI4NjY2" branchName="main" branchId="Qjo0MDgyMDA">
+<bns:Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bns="http://api.platform.boomi.com/" folderFullPath="Training-Darko-Mirchevski/Root/Parent/Child" componentId="576b65e6-73ff-4b90-a3b4-ceba0ae84c76" version="28" name="[Main]-Child-v3" type="process" createdDate="2025-02-19T09:40:44Z" createdBy="mirchevski.darko@uklo.edu.mk" modifiedDate="2025-04-02T12:15:13Z" modifiedBy="mirchevski.darko@uklo.edu.mk" deleted="false" currentVersion="true" folderName="Child" folderId="Rjo3NDI4NjY2" branchName="main" branchId="Qjo0MDgyMDA">
   <bns:encryptedValues/>
   <bns:description/>
   <bns:object>
@@ -10,25 +10,14 @@
             <noaction/>
           </configuration>
           <dragpoints>
-            <dragpoint name="shape1.dragpoint1" toShape="shape3" x="224.0" y="56.0"/>
+            <dragpoint name="shape1.dragpoint1" toShape="shape2" x="368.0" y="232.0"/>
           </dragpoints>
         </shape>
-        <shape image="returndocuments_icon" name="shape2" shapetype="returndocuments" x="432.0" y="48.0">
+        <shape image="returndocuments_icon" name="shape2" shapetype="returndocuments" x="384.0" y="224.0">
           <configuration>
             <returndocuments/>
           </configuration>
           <dragpoints/>
-        </shape>
-        <shape image="connectoraction_icon" name="shape3" shapetype="connectoraction" userlabel="" x="240.0" y="48.0">
-          <configuration>
-            <connectoraction actionType="Get" allowDynamicCredentials="NONE" connectionId="8a8e8828-50fa-4c1d-9142-93606427a5db" connectorType="http" hideSettings="false" operationId="28300f06-9473-4d8a-aea0-2c7472326d72" parameter-profile="EMBEDDED|HttpParameterChooser|28300f06-9473-4d8a-aea0-2c7472326d72">
-              <parameters/>
-              <dynamicProperties/>
-            </connectoraction>
-          </configuration>
-          <dragpoints>
-            <dragpoint name="shape3.dragpoint1" toShape="shape2" x="416.0" y="56.0"/>
-          </dragpoints>
         </shape>
       </shapes>
     </process>
