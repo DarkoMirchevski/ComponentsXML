@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<bns:Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bns="http://api.platform.boomi.com/" folderFullPath="Training-Darko-Mirchevski/Root/Parent/Child" componentId="28300f06-9473-4d8a-aea0-2c7472326d72" version="1" name="[HTTP] Client Connector Operation" type="connector-action" subType="http" createdDate="2025-04-01T11:20:35Z" createdBy="mirchevski.darko@uklo.edu.mk" modifiedDate="2025-04-01T11:20:35Z" modifiedBy="mirchevski.darko@uklo.edu.mk" deleted="false" currentVersion="true" folderName="Child" folderId="Rjo3NDI4NjY2" branchName="main" branchId="Qjo0MDgyMDA">
+<bns:Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bns="http://api.platform.boomi.com/" folderFullPath="Training-Darko-Mirchevski/Root/Parent" componentId="03b2110b-47d0-41b2-8863-93d2c8fa308a" version="2" name="[New] HTTP Client Connector Operation" type="connector-action" subType="http" createdDate="2025-02-19T10:20:04Z" createdBy="mirchevski.darko@uklo.edu.mk" modifiedDate="2025-03-03T14:19:40Z" modifiedBy="mirchevski.darko@uklo.edu.mk" deleted="false" currentVersion="true" folderName="Parent" folderId="Rjo3NDI4NjY1" branchName="main" branchId="Qjo0MDgyMDA">
   <bns:encryptedValues/>
   <bns:description/>
   <bns:object>
