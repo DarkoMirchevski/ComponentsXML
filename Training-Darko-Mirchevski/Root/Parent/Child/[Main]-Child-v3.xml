@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<bns:Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bns="http://api.platform.boomi.com/" folderFullPath="Training-Darko-Mirchevski/Root/Parent/Child" componentId="576b65e6-73ff-4b90-a3b4-ceba0ae84c76" version="34" name="[Main]-Child-v3" type="process" createdDate="2025-02-19T09:40:44Z" createdBy="mirchevski.darko@uklo.edu.mk" modifiedDate="2025-04-02T13:44:11Z" modifiedBy="mirchevski.darko@uklo.edu.mk" deleted="false" currentVersion="true" folderName="Child" folderId="Rjo3NDI4NjY2" branchName="main" branchId="Qjo0MDgyMDA">
+<bns:Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bns="http://api.platform.boomi.com/" folderFullPath="Training-Darko-Mirchevski/Root/Parent/Child" componentId="576b65e6-73ff-4b90-a3b4-ceba0ae84c76" version="35" name="[Main]-Child-v3" type="process" createdDate="2025-02-19T09:40:44Z" createdBy="mirchevski.darko@uklo.edu.mk" modifiedDate="2025-04-02T15:37:25Z" modifiedBy="mirchevski.darko@uklo.edu.mk" deleted="false" currentVersion="true" folderName="Child" folderId="Rjo3NDI4NjY2" branchName="main" branchId="Qjo0MDgyMDA">
   <bns:encryptedValues/>
   <bns:description/>
   <bns:object>
@@ -21,7 +21,7 @@
         </shape>
         <shape image="connectoraction_icon" name="shape3" shapetype="connectoraction" userlabel="" x="240.0" y="48.0">
           <configuration>
-            <connectoraction actionType="Get" allowDynamicCredentials="NONE" connectionId="8a8e8828-50fa-4c1d-9142-93606427a5db" connectorType="http" hideSettings="false" operationId="28300f06-9473-4d8a-aea0-2c7472326d72" parameter-profile="EMBEDDED|HttpParameterChooser|28300f06-9473-4d8a-aea0-2c7472326d72">
+            <connectoraction actionType="Get" allowDynamicCredentials="NONE" connectionId="bb535cd9-4dec-4db0-8647-58e411ff38e6" connectorType="http" hideSettings="false" operationId="28300f06-9473-4d8a-aea0-2c7472326d72" parameter-profile="EMBEDDED|HttpParameterChooser|28300f06-9473-4d8a-aea0-2c7472326d72">
               <parameters/>
               <dynamicProperties/>
             </connectoraction>
