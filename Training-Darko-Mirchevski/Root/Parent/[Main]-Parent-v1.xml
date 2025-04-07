@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<bns:Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bns="http://api.platform.boomi.com/" folderFullPath="Training-Darko-Mirchevski/Root/Parent" componentId="f96f03f5-1f98-4575-8aa9-1162093014cf" version="17" name="[Main]-Parent-v1" type="process" createdDate="2025-02-19T09:49:54Z" createdBy="mirchevski.darko@uklo.edu.mk" modifiedDate="2025-04-07T11:58:08Z" modifiedBy="mirchevski.darko@uklo.edu.mk" deleted="false" currentVersion="true" folderName="Parent" folderId="Rjo3NDI4NjY1" branchName="main" branchId="Qjo0MDgyMDA">
+  <bns:encryptedValues/>
+  <bns:description/>
+  <bns:object>
+    <process xmlns="" allowSimultaneous="false" enableUserLog="false" processLogOnErrorOnly="false" purgeDataImmediately="false" updateRunDates="true" workload="general">
+      <shapes>
+        <shape image="start" name="shape1" shapetype="start" userlabel="" x="48.0" y="46.0">
+          <configuration>
+            <connectoraction actionType="Get" allowDynamicCredentials="NONE" connectionId="a44b08e3-6db6-4b4e-8cb8-91d8cae8bccd" connectorType="http" hideSettings="false" operationId="03b2110b-47d0-41b2-8863-93d2c8fa308a" parameter-profile="EMBEDDED|HttpParameterChooser|03b2110b-47d0-41b2-8863-93d2c8fa308a">
+              <parameters/>
+              <dynamicProperties/>
+            </connectoraction>
+          </configuration>
+          <dragpoints>
+            <dragpoint name="shape1.dragpoint1" toShape="shape2" x="416.0" y="56.0"/>
+          </dragpoints>
+        </shape>
+        <shape image="returndocuments_icon" name="shape2" shapetype="returndocuments" x="432.0" y="48.0">
+          <configuration>
+            <returndocuments/>
+          </configuration>
+          <dragpoints/>
+        </shape>
+      </shapes>
+    </process>
+  </bns:object>
+  <bns:processOverrides/>
+</bns:Component>
