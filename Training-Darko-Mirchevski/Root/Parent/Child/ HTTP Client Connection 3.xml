@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<bns:Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bns="http://api.platform.boomi.com/" folderFullPath="Training-Darko-Mirchevski/Root/Parent/Child" componentId="bb535cd9-4dec-4db0-8647-58e411ff38e6" version="2" name=" HTTP Client Connection 3" type="connector-settings" subType="http" createdDate="2025-04-02T15:37:21Z" createdBy="mirchevski.darko@uklo.edu.mk" modifiedDate="2025-04-08T11:49:08Z" modifiedBy="mirchevski.darko@uklo.edu.mk" deleted="false" currentVersion="true" folderName="Child" folderId="Rjo3NDI4NjY2" branchName="main" branchId="Qjo0MDgyMDA">
+  <bns:encryptedValues/>
+  <bns:description/>
+  <bns:object>
+    <HttpSettings xmlns="" authenticationType="NONE" url="test.com">
+      <AuthSettings user=""/>
+      <OAuthSettings accessToken="" accessTokenURL="" authorizationURL="" consumerKey="" realm="" requestTokenURL="" signatureMethod="SHA256" suppressBlankAccessToken="false"/>
+      <OAuth2Settings grantType="code" refreshAuthScheme="req_body_params_auth">
+        <credentials clientId=""/>
+        <authorizationTokenEndpoint url="">
+          <sslOptions/>
+        </authorizationTokenEndpoint>
+        <authorizationParameters/>
+        <accessTokenEndpoint url="">
+          <sslOptions/>
+        </accessTokenEndpoint>
+        <accessTokenParameters/>
+        <scope/>
+      </OAuth2Settings>
+      <AwsSettings>
+        <credentials>
+          <accessKeyId/>
+          <awsService>s3</awsService>
+          <customService/>
+          <awsRegion>ap-northeast-1</awsRegion>
+          <customRegion/>
+        </credentials>
+      </AwsSettings>
+      <SSLOptions clientauth="false" trustServerCert="false"/>
+    </HttpSettings>
+  </bns:object>
+</bns:Component>
