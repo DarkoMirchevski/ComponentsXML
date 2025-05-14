@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<bns:Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bns="http://api.platform.boomi.com/" folderFullPath="FICT/IWConnect/Boomi Exercises/Task1" componentId="771fd38c-cad9-48a5-aaf4-4df099567096" version="3" name="New Disk v2 Connector Operation" type="connector-action" subType="disk-sdk" createdDate="2025-05-07T13:38:35Z" createdBy="mirchevski.darko@uklo.edu.mk" modifiedDate="2025-05-07T13:44:15Z" modifiedBy="mirchevski.darko@uklo.edu.mk" deleted="false" currentVersion="true" folderName="Task1" folderId="Rjo3NjI5Njcz" branchName="main" branchId="Qjo0OTU0MjI">
+  <bns:encryptedValues/>
+  <bns:description/>
+  <bns:object>
+    <Operation xmlns="" returnApplicationErrors="false" trackResponse="false">
+      <Archiving directory="" enabled="false"/>
+      <Configuration>
+        <GenericOperationConfig objectTypeId="FILE_CREATE_UPSERT" objectTypeName="File" operationType="CREATE" requestProfileType="binary" responseProfile="23bbe950-7dfd-4d67-aaac-96e6ef8ada16" responseProfileType="json">
+          <field id="createDir" type="boolean" value="false"/>
+          <field id="includeAll" type="boolean" value="false"/>
+          <field id="actionIfFileExists" type="string" value="ERROR"/>
+          <Options>
+            <QueryOptions>
+              <Fields>
+                <ConnectorObject name="File">
+                  <FieldList>
+                    <ConnectorField filterable="true" name="createdDate" selectable="true" selected="true" sortable="true"/>
+                    <ConnectorField filterable="false" name="directory" selectable="true" selected="true" sortable="false"/>
+                    <ConnectorField filterable="true" name="fileName" selectable="true" selected="true" sortable="true"/>
+                    <ConnectorField filterable="true" name="fileSize" selectable="true" selected="true" sortable="true"/>
+                    <ConnectorField filterable="true" name="isDirectory" selectable="true" selected="true" sortable="true"/>
+                    <ConnectorField filterable="true" name="modifiedDate" selectable="true" selected="true" sortable="true"/>
+                  </FieldList>
+                </ConnectorObject>
+              </Fields>
+              <Inputs/>
+            </QueryOptions>
+          </Options>
+        </GenericOperationConfig>
+      </Configuration>
+      <Tracking>
+        <TrackedFields/>
+      </Tracking>
+      <Caching/>
+    </Operation>
+  </bns:object>
+</bns:Component>

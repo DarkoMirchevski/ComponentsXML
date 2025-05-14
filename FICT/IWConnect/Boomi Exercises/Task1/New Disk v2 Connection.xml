@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<bns:Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bns="http://api.platform.boomi.com/" folderFullPath="FICT/IWConnect/Boomi Exercises/Task1" componentId="fb242231-20b1-45c5-a1f1-35783f0ac4f4" version="4" name="New Disk v2 Connection" type="connector-settings" subType="disk-sdk" createdDate="2025-05-07T13:37:42Z" createdBy="mirchevski.darko@uklo.edu.mk" modifiedDate="2025-05-07T13:42:48Z" modifiedBy="mirchevski.darko@uklo.edu.mk" deleted="false" currentVersion="true" folderName="Task1" folderId="Rjo3NjI5Njcz" branchName="main" branchId="Qjo0OTU0MjI">
+  <bns:encryptedValues/>
+  <bns:description/>
+  <bns:object>
+    <GenericConnectionConfig xmlns="">
+      <field id="directory" type="string" value="work/test"/>
+      <field id="pollingInterval" type="integer" value="10000"/>
+    </GenericConnectionConfig>
+  </bns:object>
+</bns:Component>

@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<bns:Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bns="http://api.platform.boomi.com/" folderFullPath="FICT/IWConnect/Boomi Exercises/Task1" componentId="ab3b9fb3-a704-416e-b3d5-7b736329078d" version="2" name="New Flat File Profile 2" type="profile.flatfile" createdDate="2025-05-07T13:17:37Z" createdBy="mirchevski.darko@uklo.edu.mk" modifiedDate="2025-05-07T13:19:55Z" modifiedBy="mirchevski.darko@uklo.edu.mk" deleted="false" currentVersion="true" folderName="Task1" folderId="Rjo3NjI5Njcz" branchName="main" branchId="Qjo0OTU0MjI">
+  <bns:encryptedValues/>
+  <bns:description/>
+  <bns:object>
+    <FlatFileProfile xmlns="" modelVersion="2" strict="true">
+      <ProfileProperties>
+        <GeneralInfo fileType="delimited" useColumnHeaders="true"/>
+        <Options>
+          <DataOptions/>
+          <DelimitedOptions fileDelimiter="commadelimited" removeEscape="false" textQualifier="textqualifierdouble"/>
+        </Options>
+      </ProfileProperties>
+      <DataElements>
+        <FlatFileRecord detectFormat="numberofcolumns" isNode="true" key="1" name="Record">
+          <FlatFileElements isNode="true" key="2" name="Elements">
+            <FlatFileElement dataType="character" enforceUnique="false" identityValue="" isMappable="true" isNode="true" justification="left" key="19" mandatory="false" maxLength="0" minLength="0" name="last name" useToIdentifyFormat="false" validateData="false">
+              <DataFormat>
+                <ProfileCharacterFormat/>
+              </DataFormat>
+            </FlatFileElement>
+            <FlatFileElement dataType="character" enforceUnique="false" identityValue="" isMappable="true" isNode="true" justification="left" key="13" mandatory="false" maxLength="0" minLength="0" name="first name" useToIdentifyFormat="false" validateData="false">
+              <DataFormat>
+                <ProfileCharacterFormat/>
+              </DataFormat>
+            </FlatFileElement>
+            <FlatFileElement dataType="character" enforceUnique="false" identityValue="" isMappable="true" isNode="true" justification="left" key="4" mandatory="false" maxLength="0" minLength="0" name="birthday" useToIdentifyFormat="false" validateData="false">
+              <DataFormat>
+                <ProfileCharacterFormat/>
+              </DataFormat>
+            </FlatFileElement>
+          </FlatFileElements>
+        </FlatFileRecord>
+      </DataElements>
+    </FlatFileProfile>
+  </bns:object>
+</bns:Component>

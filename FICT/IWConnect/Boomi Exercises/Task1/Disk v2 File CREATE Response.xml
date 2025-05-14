@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<bns:Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bns="http://api.platform.boomi.com/" folderFullPath="FICT/IWConnect/Boomi Exercises/Task1" componentId="23bbe950-7dfd-4d67-aaac-96e6ef8ada16" version="1" name="Disk v2 File CREATE Response" type="profile.json" createdDate="2025-05-07T13:38:09Z" createdBy="mirchevski.darko@uklo.edu.mk" modifiedDate="2025-05-07T13:38:09Z" modifiedBy="mirchevski.darko@uklo.edu.mk" deleted="false" currentVersion="true" folderName="Task1" folderId="Rjo3NjI5Njcz" branchName="main" branchId="Qjo0OTU0MjI">
+  <bns:encryptedValues/>
+  <bns:object>
+    <JSONProfile xmlns="" strict="false">
+      <GeneratorConfig enableFieldLengthValidation="true" enableParseDateTime="true"/>
+      <DataElements>
+        <JSONRootValue dataType="character" isMappable="true" isNode="true" key="1" name="File">
+          <DataFormat>
+            <ProfileCharacterFormat/>
+          </DataFormat>
+          <JSONObject isMappable="false" isNode="true" key="2" name="Object">
+            <JSONObjectEntry dataType="character" isMappable="true" isNode="true" key="3" name="createdDate" required="true">
+              <DataFormat>
+                <ProfileCharacterFormat/>
+              </DataFormat>
+            </JSONObjectEntry>
+            <JSONObjectEntry dataType="character" isMappable="true" isNode="true" key="4" name="directory" required="true">
+              <DataFormat>
+                <ProfileCharacterFormat/>
+              </DataFormat>
+            </JSONObjectEntry>
+            <JSONObjectEntry dataType="character" isMappable="true" isNode="true" key="5" name="fileName" required="true">
+              <DataFormat>
+                <ProfileCharacterFormat/>
+              </DataFormat>
+            </JSONObjectEntry>
+            <JSONObjectEntry dataType="number" isMappable="true" isNode="true" key="6" name="fileSize" required="true">
+              <DataFormat>
+                <ProfileNumberFormat numberFormat=""/>
+              </DataFormat>
+            </JSONObjectEntry>
+            <JSONObjectEntry dataType="boolean" isMappable="true" isNode="true" key="7" name="isDirectory" required="true">
+              <DataFormat/>
+            </JSONObjectEntry>
+            <JSONObjectEntry dataType="character" isMappable="true" isNode="true" key="8" name="modifiedDate" required="true">
+              <DataFormat>
+                <ProfileCharacterFormat/>
+              </DataFormat>
+            </JSONObjectEntry>
+          </JSONObject>
+        </JSONRootValue>
+      </DataElements>
+      <tagLists/>
+    </JSONProfile>
+  </bns:object>
+</bns:Component>
